@@ -1,0 +1,58 @@
+.project-list-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.project-list-container mat-card{
+    margin-top: 15px;
+}
+
+.project-list-container mat-card-footer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.example-header-image {
+    background-size: cover;
+}
+
+.filter-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.mat-card {
+    width: 100%;
+}
+
+.mat-raised-button:not([class*=mat-elevation-z]){
+    margin-left: 10px;
+}
+
+.mat-card > .mat-card-footer{
+    padding-bottom: 10px !important;
+}
+
+body .mat-card-content.p {
+    padding-left: 1em;
+}
+
+.mat-card-content > p {
+    margin-left: 1em;
+}
+
+div .mat-form-field-appearance-legacy, .mat-form-field-wrapper{
+    margin: 1em;
+}
+
+.language-chip{
+    background-color: bisque;
+}
+
+.categorie-chip{
+    background-color: aqua;
+}
