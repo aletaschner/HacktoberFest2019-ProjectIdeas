@@ -1,6 +1,6 @@
-import { ProjectIdea } from "src/_models/project-idea";
-import { Category } from "src/_models/category";
-import { Language } from "src/_models/language";
+import {ProjectIdea} from 'src/_models/project-idea';
+import {Category} from 'src/_models/category';
+import {Language} from 'src/_models/language';
 
 export const ProjectIdeas: ProjectIdea[] = [
   {
@@ -19,6 +19,14 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "Use the Spotify API to gather data on the hottest grends in music right now, whether it be artists, genres, etc. and write software that can calculate how in tune with current trends a user is when asking for their Spotify username.",
     recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Build a pokedex as your hello world app",
+    author: { name: "You", username: "yourusername" },
+    categories: [Category.Software, Category.Website],
+    description:
+      "Many people build hello world applications like a todo list when learning new frameworks or languages. A fun alternative is to build a pokedex instead.",
+    recommendedLanguages: [Language.Javascript]
   },
   {
     title: "Get weather and weather forecasts for multiple cities.",
