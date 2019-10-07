@@ -27,5 +27,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "Many people build hello world applications like a todo list when learning new frameworks or languages. A fun alternative is to build a pokedex instead.",
     recommendedLanguages: [Language.Javascript]
+  },
+  {
+    title: "Get weather and weather forecasts for multiple cities.",
+    author: { name: "Jeffersson semin", username: "JefferssonSemin" },
+    categories: [Category.Service, Category.ApiRest],
+    description:
+      "Using this kind of requests you can get weather data in any location on the earth. The current weather data are updated online based on data from more than 40,000 weather stations.",
+    recommendedLanguages: [Language.Python, Language.Javascript]
   }
 ];
