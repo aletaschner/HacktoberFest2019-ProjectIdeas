@@ -5,5 +5,7 @@ export enum Category {
     Product,
     Website,
     Games,
-    ApiRest
+    ApiRest,
+    AI,
+    MachineLearning
 }

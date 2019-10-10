@@ -43,7 +43,7 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:"Facial Recognition Attendance System is basically an automated identification system that can recognize any individual whose facial features are stored in the database",
     recommendedLanguages: [Language.Python, Language.Javascript]
   },
-  }
+  {
     title: "Customizable Stock Price Viewer",
     author: { name: "M. Oliveira", username: "m-oliv" },
     categories: [Category.Service, Category.ApiRest, Category.Website],
