@@ -35,5 +35,12 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "Using this kind of requests you can get weather data in any location on the earth. The current weather data are updated online based on data from more than 40,000 weather stations.",
     recommendedLanguages: [Language.Python, Language.Javascript]
+  },
+  {
+    title: "Employee attendance by face recognition",
+    author: { name: "Ankit kumar", username: "JefferssonSemin" },
+    categories: [Category.AI, Category.MachineLearning],
+    description:"Facial Recognition Attendance System is basically an automated identification system that can recognize any individual whose facial features are stored in the database",
+    recommendedLanguages: [Language.Python, Language.Javascript]
   }
 ];
