@@ -38,7 +38,7 @@ export const ProjectIdeas: ProjectIdea[] = [
   },
   {
     title: "Employee attendance by face recognition",
-    author: { name: "Ankit kumar", username: "JefferssonSemin" },
+    author: { name: "Ankit kumar", username: "PrajapatiAnkit" },
     categories: [Category.AI, Category.MachineLearning],
     description:"Facial Recognition Attendance System is basically an automated identification system that can recognize any individual whose facial features are stored in the database",
     recommendedLanguages: [Language.Python, Language.Javascript]
