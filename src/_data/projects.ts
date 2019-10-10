@@ -35,5 +35,21 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "Using this kind of requests you can get weather data in any location on the earth. The current weather data are updated online based on data from more than 40,000 weather stations.",
     recommendedLanguages: [Language.Python, Language.Javascript]
+  },
+  {
+    title: "Customizable Stock Price Viewer",
+    author: { name: "M. Oliveira", username: "m-oliv" },
+    categories: [Category.Service, Category.ApiRest, Category.Website],
+    description:
+      "Build a simple web page in which you input the ID of a company from a stock market (example: 'APPL') and you get a chart with stock price over a period of time. If you can show the chart for multiple companies, even better. This could be done as a front-end only project (using an external API) or, if you feel adventurous, you can add a back-end that collects stock price data and saves it in a DB. The front-end would then use REST to retrieve the data from the back-end.",
+    recommendedLanguages: [Language.Python, Language.Javascript]
+  },
+  {
+    title: "Twitter Scheduler",
+    author: { name: "M. Oliveira", username: "m-oliv" },
+    categories: [Category.Service, Category.Website],
+    description:
+      "Build a web page in which you can schedule tweets to be published to one or more accounts. Bonus points if you can add GIFs and such. This feature exists on tweetdeck, but it could be a very nice exercise of redesign.",
+    recommendedLanguages: [Language.Javascript]
   }
 ];
