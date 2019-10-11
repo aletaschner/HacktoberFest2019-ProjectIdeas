@@ -58,5 +58,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "Build a web page in which you can schedule tweets to be published to one or more accounts. Bonus points if you can add GIFs and such. This feature exists on tweetdeck, but it could be a very nice exercise of redesign.",
     recommendedLanguages: [Language.Javascript]
+  },
+  {
+    title: "Secure Command line based Peer-to-Peer Instant Messaging Service",
+    author: { name: "J. Rawlani", username: "tmw9" },
+    categories: [Category.Software, Category.Product],
+    description: 
+      "A Simple Command line based chat interface, secured with End-to-End Encryption Techniques(like Elliptic Curve Cryptography), to communicate with users all around the globe using just IP address of the user",
+    recommendedLanguages: [Language.Python, Language.Go]
   }
 ];
