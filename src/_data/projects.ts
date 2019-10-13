@@ -66,5 +66,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "A Simple Command line based chat interface, secured with End-to-End Encryption Techniques(like Elliptic Curve Cryptography), to communicate with users all around the globe using just IP address of the user",
     recommendedLanguages: [Language.Python, Language.Go]
+  },
+  {
+    title: "Tech for the non-tech savvy",
+    author: { name: "Aditi", username: "mystic-potato" },
+    categories: [Category.Software, Category.App],
+    description: 
+      "An app that takes care of all of the user needs without requiring the user to have technical skills. E.g.If user wants to send message but dosen't know how he can just ask app do do it.",
+    recommendedLanguages: [Language.Python, Language.Go]
   }
 ];
