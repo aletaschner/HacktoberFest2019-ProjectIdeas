@@ -74,5 +74,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "An app that takes care of all of the user needs without requiring the user to have technical skills. E.g.If user wants to send message but dosen't know how he can just ask app do do it.",
     recommendedLanguages: [Language.Kotlin, Language.Ruby]
+  },
+  {
+    title: "Simple and easy system for support small social services",
+    author: { name: "Eliton Gadotti", username: "1eliton" },
+    categories: [Category.Website, Category.Product, Category.Software],
+    description: 
+      "As we can imagine, the social services (especially the litle ones) does not have a focus on systems or bureaucracy, but (in general) in helping people on their necessity. The idea is to build a system that can help the leaders of a community to maintain all documents, beneficiaries, services, social actions, volunteers and schedulle keep under control.",
+    recommendedLanguages: [Language.Python]
   }
 ];
