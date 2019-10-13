@@ -68,6 +68,14 @@ export const ProjectIdeas: ProjectIdea[] = [
     recommendedLanguages: [Language.Python, Language.Go]
   },
   {
+    title: "Tech for the non-tech savvy",
+    author: { name: "Aditi", username: "mystic-potato" },
+    categories: [Category.Software, Category.App],
+    description: 
+      "An app that takes care of all of the user needs without requiring the user to have technical skills. E.g.If user wants to send message but dosen't know how he can just ask app do do it.",
+    recommendedLanguages: [Language.Kotlin, Language.Ruby]
+  },
+  {
     title: "Simple and easy system for support small social services",
     author: { name: "Eliton Gadotti", username: "1eliton" },
     categories: [Category.Website, Category.Product, Category.Software],
