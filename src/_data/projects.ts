@@ -82,5 +82,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "As we can imagine, the social services (especially the litle ones) does not have a focus on systems or bureaucracy, but (in general) in helping people on their necessity. The idea is to build a system that can help the leaders of a community to maintain all documents, beneficiaries, services, social actions, volunteers and schedulle keep under control.",
     recommendedLanguages: [Language.Python]
+  },
+   {
+    title: "Read Me My Book App, hardcopy pages to be converted into pdf form",
+    author: { name: "Ankit kumar", username: "poruss" },
+    categories: [Category.Product, Category.Software],
+    description: 
+      "Nowadays we can’t carry books everywhere, it becomes difficult to carry books every day and read. Here we come up with this solution, this read me my book application helps the hardcopy of books to convert into pdf form. In this application user just needs to click picture using their mobile phone camera of the hardcopy pages and it will be converted into pdf form",
+    recommendedLanguages: [Language.Python]
   }
 ];
