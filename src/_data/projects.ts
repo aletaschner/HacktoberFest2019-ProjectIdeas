@@ -82,5 +82,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "As we can imagine, the social services (especially the litle ones) does not have a focus on systems or bureaucracy, but (in general) in helping people on their necessity. The idea is to build a system that can help the leaders of a community to maintain all documents, beneficiaries, services, social actions, volunteers and schedulle keep under control.",
     recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Online rental property guestbook",
+    author: { name: "Mac B", username: "Maciox55" },
+    categories: [Category.Website, Category.Software],
+    description: 
+      "Sometimes when you rent a house or room on AirBnB they have a guestbook where you can sign in, why not put it online and make it available to anyone anywhere.",
+    recommendedLanguages: [Language.Javascript]
   }
 ];
