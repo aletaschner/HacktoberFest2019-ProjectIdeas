@@ -82,5 +82,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "As we can imagine, the social services (especially the litle ones) does not have a focus on systems or bureaucracy, but (in general) in helping people on their necessity. The idea is to build a system that can help the leaders of a community to maintain all documents, beneficiaries, services, social actions, volunteers and schedulle keep under control.",
     recommendedLanguages: [Language.Python]
-  }
+  },
+  {
+    title: "Twitter Chatbot",
+    author: { name: "M. Oliveira", username: "m-oliv" },
+    categories: [Category.Service, Category.AI],
+    description:
+      "Build a chatbot that interacts with people on twitter. Bonus points if you make it smart by using basic AI.",
+    recommendedLanguages: [Language.Javascript]
+  },
 ];
