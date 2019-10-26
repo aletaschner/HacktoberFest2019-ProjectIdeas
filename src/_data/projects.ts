@@ -82,5 +82,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "As we can imagine, the social services (especially the litle ones) does not have a focus on systems or bureaucracy, but (in general) in helping people on their necessity. The idea is to build a system that can help the leaders of a community to maintain all documents, beneficiaries, services, social actions, volunteers and schedulle keep under control.",
     recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Simple command line based Software Engineer interview question practice",
+    author: { name: "Sanchit Mishra", username: "sanchittechnogeek" },
+    categories: [Category.Website, Category.Product, Category.Software],
+    description: 
+      "A Command line based python program which randomly shows the user some of the previous popular software engineering interview question and allows them to select any of them and solve it under a given time along with matching the required test cases.",
+    recommendedLanguages: [Language.Python]
   }
 ];
