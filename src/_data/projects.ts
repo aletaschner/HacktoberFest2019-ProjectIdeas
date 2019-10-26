@@ -84,6 +84,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     recommendedLanguages: [Language.Python]
   },
   {
+    title: "Online rental property guestbook",
+    author: { name: "Mac B", username: "Maciox55" },
+    categories: [Category.Website, Category.Software],
+    description: 
+      "Sometimes when you rent a house or room on AirBnB they have a guestbook where you can sign in, why not put it online and make it available to anyone anywhere.",
+    recommendedLanguages: [Language.Javascript]
+   },
     title: "Stock Prices Predictor",
     author: { name: "Anuj kumar shukla", username: "anujshuklaas" },
     categories: [Category.Website, Category.Product, Category.Software],
