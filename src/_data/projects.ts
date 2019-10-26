@@ -90,5 +90,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "Nowadays we can’t carry books everywhere, it becomes difficult to carry books every day and read. Here we come up with this solution, this read me my book application helps the hardcopy of books to convert into pdf form. In this application user just needs to click picture using their mobile phone camera of the hardcopy pages and it will be converted into pdf form",
     recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Twitter Chatbot",
+    author: { name: "M. Oliveira", username: "m-oliv" },
+    categories: [Category.Service, Category.AI],
+    description:
+      "Build a chatbot that interacts with people on twitter. Bonus points if you make it smart by using basic AI.",
+    recommendedLanguages: [Language.Javascript]
   }
 ];
