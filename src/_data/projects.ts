@@ -83,6 +83,14 @@ export const ProjectIdeas: ProjectIdea[] = [
       "As we can imagine, the social services (especially the litle ones) does not have a focus on systems or bureaucracy, but (in general) in helping people on their necessity. The idea is to build a system that can help the leaders of a community to maintain all documents, beneficiaries, services, social actions, volunteers and schedulle keep under control.",
     recommendedLanguages: [Language.Python]
   },
+  {
+    title: "Stock Prices Predictor",
+    author: { name: "Anuj kumar shukla", username: "anujshuklaas" },
+    categories: [Category.Website, Category.Product, Category.Software],
+    description: 
+      "This is another interesting machine learning project idea for data scientists/machine learning engineers working or planning to work with finance domain. Stock prices predictor is a system that learns about the performance of a company and predicts future stock prices",
+    recommendedLanguages: [Language.Python]
+   },
    {
     title: "Read Me My Book App, hardcopy pages to be converted into pdf form",
     author: { name: "Ankit kumar", username: "poruss" },
