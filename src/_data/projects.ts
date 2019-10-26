@@ -114,4 +114,12 @@ export const ProjectIdeas: ProjectIdea[] = [
       "Build a chatbot that interacts with people on twitter. Bonus points if you make it smart by using basic AI.",
     recommendedLanguages: [Language.Javascript]
   }
+  {
+    title: "Fitness for the lazy",
+    author: { name: "Kshitij Srivastava", username: "kshitijsriv" },
+    categories: [Category.App, Category.Product, Category.Software],
+    description: 
+      "Tracking your calories can be get difficult. To feed this data each time you eat gets quite tedious. The idea is to build an app which can detect the amount of calories from the image of a food item and add to your daily caloric intake. It also suggests how you can plan your meal for the rest of your day to stay within your caloric intake limits.",
+    recommendedLanguages: [Language.Java]
+  }
 ];
