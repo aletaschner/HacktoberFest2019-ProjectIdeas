@@ -90,5 +90,28 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "Sometimes when you rent a house or room on AirBnB they have a guestbook where you can sign in, why not put it online and make it available to anyone anywhere.",
     recommendedLanguages: [Language.Javascript]
+   },
+    title: "Stock Prices Predictor",
+    author: { name: "Anuj kumar shukla", username: "anujshuklaas" },
+    categories: [Category.Website, Category.Product, Category.Software],
+    description: 
+      "This is another interesting machine learning project idea for data scientists/machine learning engineers working or planning to work with finance domain. Stock prices predictor is a system that learns about the performance of a company and predicts future stock prices",
+    recommendedLanguages: [Language.Python]
+   },
+   {
+    title: "Read Me My Book App, hardcopy pages to be converted into pdf form",
+    author: { name: "Ankit kumar", username: "poruss" },
+    categories: [Category.Product, Category.Software],
+    description: 
+      "Nowadays we can’t carry books everywhere, it becomes difficult to carry books every day and read. Here we come up with this solution, this read me my book application helps the hardcopy of books to convert into pdf form. In this application user just needs to click picture using their mobile phone camera of the hardcopy pages and it will be converted into pdf form",
+    recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Twitter Chatbot",
+    author: { name: "M. Oliveira", username: "m-oliv" },
+    categories: [Category.Service, Category.AI],
+    description:
+      "Build a chatbot that interacts with people on twitter. Bonus points if you make it smart by using basic AI.",
+    recommendedLanguages: [Language.Javascript]
   }
 ];
