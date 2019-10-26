@@ -84,6 +84,14 @@ export const ProjectIdeas: ProjectIdea[] = [
     recommendedLanguages: [Language.Python]
   },
   {
+    title: "Simple command line based Software Engineer interview question practice",
+    author: { name: "Sanchit Mishra", username: "sanchittechnogeek" },
+    categories: [Category.Website, Category.Product, Category.Software],
+    description: 
+      "A Command line based python program which randomly shows the user some of the previous popular software engineering interview question and allows them to select any of them and solve it under a given time along with matching the required test cases.",
+    recommendedLanguages: [Language.Python]
+  },
+  {
     title: "Online rental property guestbook",
     author: { name: "Mac B", username: "Maciox55" },
     categories: [Category.Website, Category.Software],
@@ -113,7 +121,7 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "Build a chatbot that interacts with people on twitter. Bonus points if you make it smart by using basic AI.",
     recommendedLanguages: [Language.Javascript]
-  }
+  },
   {
     title: "Fitness for the lazy",
     author: { name: "Kshitij Srivastava", username: "kshitijsriv" },
