@@ -90,5 +90,44 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "A Command line based python program which randomly shows the user some of the previous popular software engineering interview question and allows them to select any of them and solve it under a given time along with matching the required test cases.",
     recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Online rental property guestbook",
+    author: { name: "Mac B", username: "Maciox55" },
+    categories: [Category.Website, Category.Software],
+    description: 
+      "Sometimes when you rent a house or room on AirBnB they have a guestbook where you can sign in, why not put it online and make it available to anyone anywhere.",
+    recommendedLanguages: [Language.Javascript]
+   },
+    title: "Stock Prices Predictor",
+    author: { name: "Anuj kumar shukla", username: "anujshuklaas" },
+    categories: [Category.Website, Category.Product, Category.Software],
+    description: 
+      "This is another interesting machine learning project idea for data scientists/machine learning engineers working or planning to work with finance domain. Stock prices predictor is a system that learns about the performance of a company and predicts future stock prices",
+    recommendedLanguages: [Language.Python]
+   },
+   {
+    title: "Read Me My Book App, hardcopy pages to be converted into pdf form",
+    author: { name: "Ankit kumar", username: "poruss" },
+    categories: [Category.Product, Category.Software],
+    description: 
+      "Nowadays we can’t carry books everywhere, it becomes difficult to carry books every day and read. Here we come up with this solution, this read me my book application helps the hardcopy of books to convert into pdf form. In this application user just needs to click picture using their mobile phone camera of the hardcopy pages and it will be converted into pdf form",
+    recommendedLanguages: [Language.Python]
+  },
+  {
+    title: "Twitter Chatbot",
+    author: { name: "M. Oliveira", username: "m-oliv" },
+    categories: [Category.Service, Category.AI],
+    description:
+      "Build a chatbot that interacts with people on twitter. Bonus points if you make it smart by using basic AI.",
+    recommendedLanguages: [Language.Javascript]
+  },
+  {
+    title: "Fitness for the lazy",
+    author: { name: "Kshitij Srivastava", username: "kshitijsriv" },
+    categories: [Category.App, Category.Product, Category.Software],
+    description: 
+      "Tracking your calories can be get difficult. To feed this data each time you eat gets quite tedious. The idea is to build an app which can detect the amount of calories from the image of a food item and add to your daily caloric intake. It also suggests how you can plan your meal for the rest of your day to stay within your caloric intake limits.",
+    recommendedLanguages: [Language.Java]
   }
 ];
