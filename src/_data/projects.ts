@@ -130,4 +130,12 @@ export const ProjectIdeas: ProjectIdea[] = [
       "Tracking your calories can be get difficult. To feed this data each time you eat gets quite tedious. The idea is to build an app which can detect the amount of calories from the image of a food item and add to your daily caloric intake. It also suggests how you can plan your meal for the rest of your day to stay within your caloric intake limits.",
     recommendedLanguages: [Language.Java]
   }
+   {
+    title: "#Hacktoberfest Automating app",
+    author: { name: "Bhavesh Goel", username: "bhaveshgoel07" },
+    categories: [Category.Product, Category.Software],
+    description: 
+      "As you know doing the same task again and again can be quite frustrating so this app that I would want to develop will automate all the tasks using scripts and sometimes touch recording and will be easy to program.",
+    recommendedLanguages: [Language.Python, Language.JAVA]
+  }
 ];
