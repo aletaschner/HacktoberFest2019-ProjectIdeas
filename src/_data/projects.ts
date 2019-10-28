@@ -99,6 +99,7 @@ export const ProjectIdeas: ProjectIdea[] = [
       "Sometimes when you rent a house or room on AirBnB they have a guestbook where you can sign in, why not put it online and make it available to anyone anywhere.",
     recommendedLanguages: [Language.Javascript]
    },
+   {
     title: "Stock Prices Predictor",
     author: { name: "Anuj kumar shukla", username: "anujshuklaas" },
     categories: [Category.Website, Category.Product, Category.Software],
@@ -130,13 +131,21 @@ export const ProjectIdeas: ProjectIdea[] = [
       "Tracking your calories can be get difficult. To feed this data each time you eat gets quite tedious. The idea is to build an app which can detect the amount of calories from the image of a food item and add to your daily caloric intake. It also suggests how you can plan your meal for the rest of your day to stay within your caloric intake limits.",
     recommendedLanguages: [Language.Java]
   }
-   {
+  {
     title: "#Hacktoberfest Automating app",
     author: { name: "Bhavesh Goel", username: "bhaveshgoel07" },
     categories: [Category.Product, Category.Software],
     description: 
       "As you know doing the same task again and again can be quite frustrating so this app that I would want to develop will automate all the tasks using scripts and sometimes touch recording and will be easy to program.",
     recommendedLanguages: [Language.Python, Language.JAVA]
+  },
+  {
+    title: "Online Movie Database",
+    author: { name: "Vesna Trifunoska", username: "VesnaTrifunoska" },
+    categories: [Category.App, Category.Website],
+    description: 
+      "Build a Online Movie Database that fetches movie details and review from the ThemovieDB API.",
+    recommendedLanguages: [Language.Javascript]
   }
   {
     title: "Spot the Runner",
