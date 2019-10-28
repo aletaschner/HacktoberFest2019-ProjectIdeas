@@ -138,4 +138,12 @@ export const ProjectIdeas: ProjectIdea[] = [
       "As you know doing the same task again and again can be quite frustrating so this app that I would want to develop will automate all the tasks using scripts and sometimes touch recording and will be easy to program.",
     recommendedLanguages: [Language.Python, Language.JAVA]
   }
+  {
+    title: "Spot the Runner",
+    author: { name: "C. Day", username: "charliemday"},
+    categories: [Category.AI, Category.Software],
+    description:
+      "As Marathon runners cross the finish line, their name is called out, however this is done manually. Utilising Computer Vision, spot the runner's number tag to automate a callout and track their time".
+    recommendedLanguages: [Language.Python]
+  }
 ];
