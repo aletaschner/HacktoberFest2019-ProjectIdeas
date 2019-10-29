@@ -154,5 +154,12 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "As Marathon runners cross the finish line, their name is called out, however this is done manually. Utilising Computer Vision, spot the runner's number tag to automate a callout and track their time".
     recommendedLanguages: [Language.Python]
+  },
+    {
+    title: "Potholes",
+    author: { name: "Akash Kaushik", username: "imakashkaushik"},
+    categories: [Category.AI, Category.Software],
+    description:
+      "This will help detect potholes on road using Phones sensors and save it to database: [Language.Javascript]
   }
 ];
