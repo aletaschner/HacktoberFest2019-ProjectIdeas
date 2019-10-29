@@ -163,4 +163,12 @@ export const ProjectIdeas: ProjectIdea[] = [
       "Creating a platform where people who live away from home/study/lives in hostel get an option to eat home made food. Food can be delivered from homecooks or home kitchens.",
     recommendedLanguages: [Language.Java, Language.Swift]
   },
+  {
+    title: "Electron Todo",
+    author: { name: "Chris Sprance", username: "csprance" },
+    categories: [Category.Service, Category.Software],
+    description:
+      "Todo apps are usually the goto projects for beginners, but they are often not as useful as they could be because you need to go to a website. With Electron you can have your todo app always running on your PC and don't have to worry about anything security related. In addition you can use the LocalStorage of Electron so you remove the need for a database which can be a point of contention for many beginners. As Electron is consistently gaining more uses cases, it is a great technology to learn. I recommend using something like Electron-Forge to make it as easy as possible to set up.",
+    recommendedLanguages: [Language.Javascript]
+  },
 ];
