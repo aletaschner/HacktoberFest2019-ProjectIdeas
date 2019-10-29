@@ -146,7 +146,7 @@ export const ProjectIdeas: ProjectIdea[] = [
     description: 
       "Build a Online Movie Database that fetches movie details and review from the ThemovieDB API.",
     recommendedLanguages: [Language.Javascript]
-  }
+  },
   {
     title: "Spot the Runner",
     author: { name: "C. Day", username: "charliemday"},
@@ -154,5 +154,13 @@ export const ProjectIdeas: ProjectIdea[] = [
     description:
       "As Marathon runners cross the finish line, their name is called out, however this is done manually. Utilising Computer Vision, spot the runner's number tag to automate a callout and track their time".
     recommendedLanguages: [Language.Python]
-  }
+  },
+  {
+    title: "Home made food delivery",
+    author: { name: "Rajan Girsa", username: "innocent-rajan" },
+    categories: [Category.Service, Category.Software],
+    description:
+      "Creating a platform where people who live away from home/study/lives in hostel get an option to eat home made food. Food can be delivered from homecooks or home kitchens.",
+    recommendedLanguages: [Language.Java, Language.Swift]
+  },
 ];
