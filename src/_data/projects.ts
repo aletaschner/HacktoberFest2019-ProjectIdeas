@@ -156,11 +156,19 @@ export const ProjectIdeas: ProjectIdea[] = [
     recommendedLanguages: [Language.Python]
   },
   {
-    title: "Home made food delivery",
+    title: "Remote Lab Assistance",
+    author: { name: "Ashutosh Maheshwari", username: "ashutosh210798" },
+    categories: [Category.Product, Category.Software],
+    description:
+      "The framework provides an instructor-friendly remote monitoring of lab, effective evaluation, and grading methodology.The system also provides a student-friendly remote login, software access, and problem resolution through effective help from the teacher. The framework can be easily implemented as a client–server in Java.",
+    recommendedLanguages: [Language.Java]
+  },
+      {
+    title: "",
     author: { name: "Rajan Girsa", username: "innocent-rajan" },
     categories: [Category.Service, Category.Software],
     description:
       "Creating a platform where people who live away from home/study/lives in hostel get an option to eat home made food. Food can be delivered from homecooks or home kitchens.",
     recommendedLanguages: [Language.Java, Language.Swift]
-  },
+  }
 ];
